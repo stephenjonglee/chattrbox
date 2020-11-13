@@ -1,0 +1,25 @@
+{
+  "name": "chattrbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stephenjonglee/chattrbox.git"
+  },
+  "author": "Stephen Lee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stephenjonglee/chattrbox/issues"
+  },
+  "homepage": "https://github.com/stephenjonglee/chattrbox#readme",
+  "dependencies": {
+    "nodemon": "^2.0.6",
+    "ws": "^7.4.0"
+  }
+}
