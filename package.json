@@ -1,12 +1,13 @@
 {
   "name": "chattrbox",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
-    "dev": "nodemon index.js"
+    "dev": "nodemon index.js",
+    "build": "parcel build app/scripts/src/app.js -d app/scripts/dist",
+    "watch": "parcel watch app/scripts/src/app.js -d app/scripts/dist"
   },
   "repository": {
     "type": "git",
@@ -21,5 +22,7 @@
   "dependencies": {
     "nodemon": "^2.0.6",
     "ws": "^7.4.0"
-  }
+  },
+  "devDependencies": {},
+  "description": ""
 }
